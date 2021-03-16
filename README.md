@@ -17,4 +17,4 @@ Q and E: zoom out and zoom in, respectively.
 4: GPU implementation using fragment shader
 
 ## Example
-<img src="Capture.PNG" width="1080" height="1080">
+<img src="Capture.png" width="600" height="600">
