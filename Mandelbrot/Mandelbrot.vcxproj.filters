@@ -71,4 +71,9 @@
     <None Include="Shaders\shader.vert" />
     <None Include="Shaders\shader_gpu.frag" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="Capture.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
 </Project>
