@@ -17,9 +17,9 @@ Q and E: zoom out and zoom in, respectively.
 
 2: multi-threaded brute force algorithm using OpenMP.
 
-3: multi-threaded brute force algorithm using <thread>.
+3: multi-threaded brute force algorithm using std::thread.
   
-4: GPU implementation using fragment shader
+4: GPU implementation using fragment shader.
 
 ## Example
 <img src="example.png" width="600" height="600">
