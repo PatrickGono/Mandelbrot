@@ -111,7 +111,7 @@ int Window::initialize()
 	glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 
 	// Create a window
-	main_window = glfwCreateWindow(width, height, "atoms", nullptr, nullptr);
+	main_window = glfwCreateWindow(width, height, "Mandelbrot", nullptr, nullptr);
 	if (!main_window)
 	{
 		std::cout << "GLFW window creation failed!\n";

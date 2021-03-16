@@ -39,6 +39,7 @@ private:
 	std::vector<std::unique_ptr<Shader>> shaders;
 	Canvas canvas;
 
+	void print_startup();
 
 	void calculate_simple();
 	void calculate_open_mp();

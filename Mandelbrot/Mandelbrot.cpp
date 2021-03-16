@@ -9,6 +9,14 @@ Mandelbrot::Mandelbrot(int width, int height) : width(width), height(height), po
 	shaders.emplace_back(std::make_unique<Shader>("Shaders/shader.vert", "Shaders/shader.frag"));
 	shaders.emplace_back(std::make_unique<Shader>("Shaders/shader.vert", "Shaders/shader_gpu.frag"));
 
+	print_startup();
+}
+
+void Mandelbrot::print_startup()
+{
+	std::cout << "Move around with WASD.\n";
+	std::cout << "Zoom in and out with E and Q.\n";
+	std::cout << "Choose algorithm with number keys (1 through 4).\n\n";
 	std::cout << "Simple:\n";
 }
 
